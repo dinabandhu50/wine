@@ -28,7 +28,7 @@ jobs:
           cml-publish feature_importance.png --md >> report.md
           # cml-publish residuals.png --md >> report.md
           
-          # cml-send-comment report.md
+          cml-send-comment report.md
 #       - name: Write CML report
 #         env:
 #           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
